@@ -1,0 +1,93 @@
+<div class="product-block {{ grid_class | default: 'grid-flex__item one-quarter small-down--one-half' }}{% if quickbuy %} js-contains-quickbuy{% endif %}">
+  <div class="product-block__image-container">
+    <div class="global-border-radius hover-images {% if settings.hover_image_enabled == true and product.media.size > 1 %} hover-images--two {% if product.featured_media.preview_image.aspect_ratio == product.media[1].preview_image.aspect_ratio %}same-aspect-ratio{% endif %}{% endif %} relative">
+      <a class="product-block__image" href="{{ product.url | within: collection }}">
+        {%- if product.featured_media != blank -%}
+          <div class="image-one">
+            {% render 'responsive-image', image: product.featured_media.preview_image %}
+          </div>
+          {%- if settings.hover_image_enabled == true and product.media.size > 1 -%}
+            <div class="image-two">
+              <div class="rimage-background fade-in lazyload"
+                   data-bgset="{% render 'bgset', image: product.media[1].preview_image %}"
+                   data-sizes="auto"
+                   data-parent-fit="cover">
+                <noscript>
+                  <img src="{{ product.media[1].preview_image | img_url: '1024x1024' }}" alt="{{ product.title }}" class="rimage-background__image">
+                </noscript>
+              </div>
+            </div>
+          {%- endif -%}
+        {%- else -%}
+          {{- product.featured_media.preview_image | img_url: '600x600' | img_tag -}}
+        {%- endif -%}
+      </a>
+
+      {%- if quickbuy -%}
+        <a class="product-block__quicklook-btn btn--quicklook btn btn--primary js-quickbuy-button" href="{{ product.url }}">{{ 'products.quickbuy.quick_buy' | t }}</a>
+        {% render 'quick-buy-placeholder', product: product %}
+      {%- endif -%}
+    </div>
+  </div>
+
+  <div class="product-block__title">
+    <a href="{{ product.url | within: collection }}" class="product-block__title-link">{{ product.title }}</a>
+  </div>
+
+  {%- if show_vendor -%}
+    <div class="product-block__vendor">
+      {{- product.vendor -}}
+    </div>
+  {%- endif -%}
+
+  <div class="product-price">
+    {%- assign cheapest_variant = product.variants | sort: 'price' | first -%}
+    {% render 'unit-price', variant: cheapest_variant %}
+
+    {% if product.price_varies %}
+      <span class="product-price__from">{{ 'products.product.from_text' | t }}</span>
+    {% endif %}
+
+    <span class="theme_money{% if cheapest_variant.compare_at_price > cheapest_variant.price %} product-price__reduced{% endif %}">
+      {%- if settings.product_currency_code_enabled -%}
+        {{- cheapest_variant.price | money_with_currency -}}
+      {%- else -%}
+        {{- cheapest_variant.price | money -}}
+      {%- endif -%}
+    </span>
+
+    {% if cheapest_variant.compare_at_price > cheapest_variant.price %}
+      <span class="visually-hidden">{{ 'products.product.regular_price' | t }}</span>
+      <span class="product-price__compare theme-money">{{ cheapest_variant.compare_at_price | money }}</span>
+    {% endif %}
+
+    {% if product.available %}
+      {% if cheapest_variant.compare_at_price > cheapest_variant.price and settings.sale_label_enabled %}
+        <span class="product-label product-label--on-sale global-border-radius">{{ 'products.product.on_sale' | t }}</span>
+      {% endif %}
+    {% elsif settings.sold_label_enabled %}
+      <span class="product-label product-label--sold-out global-border-radius">{{ 'products.product.sold_out' | t }}</span>
+    {% endif %}
+  </div>
+
+  {%- if settings.swatch_enabled -%}
+    {%- for option in product.options_with_values -%}
+      {%- if option.name == settings.swatch_option_name -%}
+        <div class="product-swatch-inline">
+          {%- for value in option.values -%}
+            <span class="product-swatch-inline__dot" {% if settings.swatch_method == 'images' %}style="background-image: url({{ value | handle | append: '.png' | file_img_url: '40x40', crop: 'center' }})"{% else %}style="background-color: {{ value | handle | remove: '-' }}"{% endif %}></span>
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+
+  {%- if product.metafields.reviews.rating_count != blank and product.metafields.reviews.rating_count > 0 -%}
+    <div class="product-block__rating theme-product-reviews-summary">
+      {% render 'rating', rating_value: product.metafields.reviews.rating.value %}
+      <span class="cc-rating-custom-caption">
+        {{ product.metafields.reviews.rating_count }} {{ 'products.product.reviews_link' | t: count: product.metafields.reviews.rating_count | downcase }}
+      </span>
+    </div>
+  {%- endif -%}
+</div>
