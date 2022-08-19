@@ -1,4 +1,4 @@
-{% comment %}ly_liquid_scripts_begin{% endcomment %}{% capture ly_liquid_content %}{% comment %}ly_liquid_scripts_end{% endcomment %}<!doctype html>
+<!doctype html>
 {% comment %} you can always turn off the speedupkernel{% endcomment %}
 {%- assign speedupkernel = true -%}
 {%- assign is_admin_interface = false -%}
@@ -35,7 +35,7 @@
 {%- endif -%}
 {%- endif -%}
 <!doctype html>
-<html class="no-js supports-no-cookies" lang="{{ request.locale.iso_code }}"{% comment %}ly_dir_replace_for_[]_begin{% endcomment %}{%- assign language_code = '_' | append: request.locale.iso_code -%}{%- if '_ar_he_fa_ur' contains language_code -%} dir="rtl" {%- endif -%}{% comment %}ly_dir_replace_end{% endcomment %}>
+<html class="no-js supports-no-cookies" lang="{{ request.locale.iso_code }}">
 <head>
   <script>
     let array = [];
@@ -244,7 +244,7 @@
 
 
  
-{% comment %}ly_dir_styles_begin{% endcomment %}{%- assign language_code = '_' | append: request.locale.iso_code -%}{%- if '_ar_he_fa_ur' contains language_code -%}{{- 'ly-rtl.css' | asset_url | stylesheet_tag -}}{%- endif -%}{% comment %}ly_dir_styles_end{% endcomment %}</head>
+</head>
 
 <body id="{{ page_title | handle }}" class="template-{{ template.name | handle }}">
   <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
@@ -288,15 +288,8 @@
     <!-- **END** Hextom CTB Integration // Main Include - DO NOT MODIFY -->
 
 
-<!-- langify-v2-scripts-begin -->{% comment %}ly_liquid_scripts_begin{% endcomment %}
-{% endcapture %}
-{% render 'ly-liquid-scripts' content: ly_liquid_content %}
-{% comment %}ly_liquid_scripts_end{% endcomment %}{% comment %}ly_core_scripts_begin{% endcomment %}
-{% render 'ly-core-scripts' %}
-{% comment %}ly_core_scripts_end{% endcomment %}{% comment %}ly_switcher_factory_begin{% endcomment %}
-{% render 'ly-switcher-factory' %}
-{% comment %}ly_switcher_factory_end{% endcomment %}
-<!-- langify-v2-scripts-end -->
+
+
 {% include '__footerhash' %}
 </body>
 </html>
