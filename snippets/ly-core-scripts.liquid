@@ -103,9 +103,15 @@
       var type = '';
       afterHost = afterHost.substring(0, (afterHost.indexOf("#") == -1) ? afterHost.length : afterHost.indexOf("#"));
       afterHost = afterHost.substring(0, (afterHost.indexOf("?") == -1) ? afterHost.length : afterHost.indexOf("?"));
-      name = afterHost.replace(/(_[0-9]+x[0-9]*|_{width}x|_{size})?(_crop_(top|center|bottom|left|right))?(@[0-9]*x)?(\.progressive)?\.(jpe?g|png|gif|webp)/gi, "");
-      type = afterHost.substring(afterHost.lastIndexOf('.')+1, afterHost.length);
-      file = afterHost.replace(/(_[0-9]+x[0-9]*|_{width}x|_{size})?(_crop_(top|center|bottom|left|right))?(@[0-9]*x)?(\.progressive)?\.(jpe?g|png|gif|webp)/gi, '.'+type);
+      name = afterHost.replace(/(_[0-9]+x[0-9]*|_{width}x|_{size})?(_crop_(top|center|bottom|left|right))?(@[0-9]*x)?(\.progressive)?\.(png\.jpg|jpe?g|png|gif|webp)/gi, "");
+
+      if(afterHost.search(/(\.png\.jpg|\.jpg\.jpg)/gi) > -1) {
+        type = afterHost.substring(afterHost.search(/(\.png\.jpg|\.jpg\.jpg)/gi)+1, afterHost.length);
+      } else {
+        type = afterHost.substring(afterHost.lastIndexOf('.')+1, afterHost.length);
+      }
+      
+      file = afterHost.replace(/(_[0-9]+x[0-9]*|_{width}x|_{size})?(_crop_(top|center|bottom|left|right))?(@[0-9]*x)?(\.progressive)?\.(png\.jpg|jpe?g|png|gif|webp)/gi, '.'+type);
 
       return {
         host: host,
@@ -960,6 +966,10 @@
         for(var i = 0; i < openSwitchers.length; i++) {
           openSwitchers[i].classList.remove('ly-is-open');
         }
+
+        target.getElementsByClassName('ly-custom-dropdown-current')[0].setAttribute('aria-expanded', 'true');
+      } else {
+        target.getElementsByClassName('ly-custom-dropdown-current')[0].setAttribute('aria-expanded', 'false');
       }
       target.classList.toggle('ly-is-open');
       var isOut = LyHelper.isOutOfViewport(target);
@@ -1010,6 +1020,7 @@
     }
 
     init() {
+      if(LyHelper.inIframe()) return null;
       var currentLang = langify.locale.iso_code.toLowerCase();
       //var localizationData = this.getLocalizationData();
       this.hreflangList = this.getHreflangList();
@@ -1028,12 +1039,16 @@
         return null;
       }
 
-      if(!LyHelper.inIframe() && !is404 && !bot && !blockedRoute && LyHelper.getVal('ly-lang-detect') !== 'off') {
+      if(!is404 && !bot && !blockedRoute && LyHelper.getVal('ly-lang-detect') !== 'off') {
         if(userLang && !LyHelper.getCookie('ly-lang-selected')) {
-          var hasMatch = this.redirectMatched(userLang);
-          // Redirect to default language
-          if(!hasMatch && langify.settings.switcher.languageDetectionDefault) {
-            this.redirectMatched(langify.settings.switcher.languageDetectionDefault);
+          var hasMatch = this.matchHreflangList(userLang);
+          if(currentLang !== this._hreflangToLanguageCode(hasMatch)) {
+            if(hasMatch) {
+              this.redirectMatched(userLang);
+            } else if (!hasMatch && langify.settings.switcher.languageDetectionDefault) {
+              // Redirect to default language
+              this.redirectMatched(langify.settings.switcher.languageDetectionDefault);
+            }
           }
         } else {
           if(LyHelper.getCookie('ly-lang-selected') && LyHelper.getCookie('ly-lang-selected') !== currentLang) {
@@ -1053,7 +1068,6 @@
       if(match) {
         this.redirectHref(match.href, match.lang);
       }
-      
       return match;
     }
     matchHreflangList(userLang) {
@@ -1087,12 +1101,13 @@
       return false;
     }
     redirectHref(href, userLang) {
-      var additionalParams = '';
-      additionalParams = '?redirected=true';
-      if(href.indexOf('?') >= 0) {
-        additionalParams = '&redirected=true';
+      var queryString = window.location.search;
+      if(queryString === '') {
+        queryString = '?redirected=true';
+      } else {
+        queryString += '&redirected=true';
       }
-      window.location.replace(href + additionalParams);
+      window.location.replace(href + queryString);
     }
     getHreflangList() {
       var hreflangTags = document.querySelectorAll('link[hreflang]');
