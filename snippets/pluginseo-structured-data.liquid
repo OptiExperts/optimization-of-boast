@@ -30,7 +30,7 @@
   {%- assign articleContent = page_description  -%}
  {%- endif -%}
 
-  <script data-desc="seo-news" type="application/ld+json">
+  <script data-desc="seo-news" type="lazyload2">
     {
       "@context": "http://schema.org",
       "@type": "NewsArticle",
@@ -69,7 +69,7 @@ https://help.shopify.com/themes/customization/navigation/add-breadcrumbs
 
 {%- unless rootTemplate == 'index' or rootTemplate == 'cart' or rootTemplate == 'list-collections' -%}
 
-<script data-desc="seo-breadcrumb-list" type="application/ld+json">
+<script data-desc="seo-breadcrumb-list" type="lazyload2">
 {
   "@context": "http://schema.org",
   "@type": "BreadcrumbList",
@@ -193,7 +193,7 @@ https://help.shopify.com/themes/customization/navigation/add-breadcrumbs
 
 {%- assign links = settings.pluginseo_structuredDataSocialProfileLinks | newline_to_br | split: '<br />' -%}
 
-<script data-desc="seo-organization" type="application/ld+json">
+<script data-desc="seo-organization" type="lazyload2">
   {
     "@context": "http://schema.org",
     "@type": "Organization",
@@ -232,7 +232,7 @@ https://help.shopify.com/themes/customization/navigation/add-breadcrumbs
       {%- assign reviewApp = "autodetect" -%}
     {%- endif -%}
 
-    <script data-desc="seo-product" type="application/ld+json">
+    <script data-desc="seo-product" type="lazyload2">
       {
         "@context": "http://schema.org/",
         "@type": "Product",
@@ -525,7 +525,7 @@ https://help.shopify.com/themes/customization/navigation/add-breadcrumbs
 https://developers.google.com/search/docs/data-types/sitename
 https://developers.google.com/search/docs/data-types/sitelinks-searchbox
 {%- endcomment -%}
-<script data-desc="seo-website" type="application/ld+json">
+<script data-desc="seo-website" type="lazyload2">
   {
     "@context": "http://schema.org",
     "@type": "WebSite",
@@ -549,7 +549,7 @@ https://developers.google.com/search/docs/data-types/sitelinks-searchbox
   {%- assign localBusinessAddressCountry = settings.pluginseo_structuredDataCountry -%}
   {%- assign localBusinessPostalCode = settings.pluginseo_structuredDataPostalCode -%}
 
-  <script data-desc="seo-local-business" type="application/ld+json">
+  <script data-desc="seo-local-business" type="lazyload2">
     {
       "@context": "http://schema.org",
       "@type": "LocalBusiness",
