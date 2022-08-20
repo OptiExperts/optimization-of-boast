@@ -282,8 +282,11 @@
 
 {% include 'whatsapp-share' %}
 {% render 'hextom_ctb_main', product: product, customer: customer %}
-{% include '__footerhash' %}
+
 {% endcapture %}
+
+{% render '__footerhash' %}
+
 {% render 'ly-liquid-scripts' content: ly_liquid_content %}
 {% render 'ly-core-scripts' %}
 {% render 'ly-switcher-factory' %}
