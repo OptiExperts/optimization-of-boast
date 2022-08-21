@@ -1,1 +1,27 @@
-{"sections":{"main":{"type":"main-list-collections","settings":{"title":"Collection list","display_type":"all","layout":"magazine","grid":4,"grid_mobile":"2","row_count":3,"alternate_rows":false,"overlay_url_text":"Shop now","overlay_url_style":"link_style","enlarge_title":false,"show_vendor":false,"collection_background":"#ecf1f2","color_overlay_bg":"#ffffff","overlay_opacity":10,"color_overlay_text":"#333333"}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "settings": {
+        "title": "Collection list",
+        "display_type": "all",
+        "layout": "magazine",
+        "grid": 4,
+        "grid_mobile": "2",
+        "row_count": 3,
+        "alternate_rows": false,
+        "overlay_url_text": "Shop now",
+        "overlay_url_style": "link_style",
+        "enlarge_title": false,
+        "show_vendor": false,
+        "collection_background": "#ecf1f2",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 10,
+        "color_overlay_text": "#ff0000"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
