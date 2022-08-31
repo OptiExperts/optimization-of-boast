@@ -1,1 +1,499 @@
-{"sections":{"slideshow":{"type":"slideshow","blocks":{"fac2833b-fbb3-40ef-99fb-a37f01dc3451":{"type":"image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/GOTHDAY.jpg","image_position":"center center","image_link":"","color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_title":"15% Korting!\nGebruik code: DARK","overlay_text":"Nu 15% korting op alle bestellingen","overlay_url_text_1":"","overlay_url_1":"","overlay_url_text_2":"","overlay_url_2":"","overlay_url_style":"button_1","enlarge_title":false,"enlarge_text":false,"overlay_position_x":50,"overlay_position_y":80,"color_label_background":"#ffffff","color_label_text":"#333333","show_chevron":true,"product_id_1":"","chevron_position_1":"right","label_position_x_1":20,"label_position_y_1":30,"product_id_2":"","chevron_position_2":"right","label_position_x_2":80,"label_position_y_2":50}},"48c1bdf1-75fa-4800-92e5-9a3a047ec311":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/presnewdresses.jpg","image_position":"center center","image_link":"","color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_title":"Nieuwe Collectie Jurken","overlay_text":"Jurken in verschillende stijlen van Goth tot Punk!","overlay_url_text_1":"Shop Now!","overlay_url_1":"shopify:\/\/collections\/lange-en-korte-jurken-in-victoriaanse-en-gothic-stijl-en-meer","overlay_url_text_2":"","overlay_url_2":"","overlay_url_style":"button_1","enlarge_title":false,"enlarge_text":false,"overlay_position_x":50,"overlay_position_y":80,"color_label_background":"#ffffff","color_label_text":"#333333","show_chevron":true,"product_id_1":"","chevron_position_1":"right","label_position_x_1":20,"label_position_y_1":30,"product_id_2":"","chevron_position_2":"right","label_position_x_2":80,"label_position_y_2":50}},"slide-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/press13-03-2022.jpg","image_position":"center center","image_link":"shopify:\/\/collections\/cosplay-en-casual-looks-voor-dames-lange-rokken-lange-jurken-korsetten","color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_title":"Dames Kleding","overlay_text":"Gothic, Punk, Rock, Pin Up en meer","overlay_url_text_1":"Shop","overlay_url_1":"","overlay_url_text_2":"","overlay_url_2":"","overlay_url_style":"button_1","enlarge_title":false,"enlarge_text":false,"overlay_position_x":50,"overlay_position_y":70,"color_label_background":"#ffffff","color_label_text":"#333333","show_chevron":true,"product_id_1":"","chevron_position_1":"right","label_position_x_1":20,"label_position_y_1":30,"product_id_2":"","chevron_position_2":"right","label_position_x_2":80,"label_position_y_2":50}},"slide-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/shoespres.jpg","image_position":"center center","image_link":"shopify:\/\/collections\/dames-schoenen","color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_title":"Chocolaticas®","overlay_text":"Mary Janes Hot Chocolate Design","overlay_url_text_1":"Shop now!","overlay_url_1":"shopify:\/\/collections\/dames-schoenen","overlay_url_text_2":"","overlay_url_2":"","overlay_url_style":"button_1","enlarge_title":false,"enlarge_text":false,"overlay_position_x":50,"overlay_position_y":70,"color_label_background":"#ffffff","color_label_text":"#333333","show_chevron":true,"product_id_1":"","chevron_position_1":"right","label_position_x_1":20,"label_position_y_1":30,"product_id_2":"","chevron_position_2":"right","label_position_x_2":80,"label_position_y_2":50}},"b14611c3-ebb8-4bd4-b03e-d758d956fd77":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/cyberpres.jpg","image_position":"center center","image_link":"shopify:\/\/collections\/cyber-rave-wear","color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_title":"Cyber \/ Rave","overlay_text":"Cyber\/Rave Kleding en Accessoires","overlay_url_text_1":"Shop Now!","overlay_url_1":"shopify:\/\/collections\/cyber-rave-wear","overlay_url_text_2":"","overlay_url_2":"","overlay_url_style":"button_1","enlarge_title":false,"enlarge_text":false,"overlay_position_x":50,"overlay_position_y":80,"color_label_background":"#ffffff","color_label_text":"#333333","show_chevron":true,"product_id_1":"","chevron_position_1":"right","label_position_x_1":20,"label_position_y_1":30,"product_id_2":"","chevron_position_2":"right","label_position_x_2":80,"label_position_y_2":50}}},"block_order":["fac2833b-fbb3-40ef-99fb-a37f01dc3451","48c1bdf1-75fa-4800-92e5-9a3a047ec311","slide-0","slide-1","b14611c3-ebb8-4bd4-b03e-d758d956fd77"],"settings":{"height":"adapt","height_desktop":600,"height_mobile":500,"mobile_text_below":true,"slideshow_autoplay":true,"slideshow_autoplay_speed":8}},"1645064879918b6d32":{"type":"pluginseo-headings","settings":{"heading":"Trendy Fashion voor Goth-stijl en alternatieve kleding","subheading":"<br>Unieke lange jurken, korsetten, haaraccessoires, herenkleding en donkere woonaccessoires"}},"featured-collection":{"type":"featured-collection","settings":{"title":"Nieuw bij Divine-Darkness!","enlarge_title":false,"link_text":"Shop now!","collection":"nieuwe-artikelen-tops-jurken-rokken-accessoires-muziek-en-meer","show_vendor":false,"enable_carousel":false,"grid":4,"row_count":3,"grid_mobile":"2"}},"collection-list":{"type":"collection-list","blocks":{"collection-0":{"type":"collection","settings":{"collection":"akumu-ink-clothing"}},"collection-1":{"type":"collection","settings":{"collection":"lange-en-korte-jurken-in-victoriaanse-en-gothic-stijl-en-meer"}},"collection-2":{"type":"collection","settings":{"collection":"maskers"}},"collection-3":{"type":"collection","settings":{"collection":"shirts"}},"147a3634-b8c9-433b-aaa9-5246e992b0a0":{"type":"collection","settings":{"collection":"tassen"}},"a150d543-2c47-49ee-9332-4d76193ec77a":{"type":"collection","settings":{"collection":"haar-accessoires"}},"719b847e-0140-4f8c-89b2-3d7435b1b6ca":{"type":"collection","settings":{"collection":"muziek"}},"451ca756-9413-4bb1-83c6-4208b4b3e49b":{"type":"collection","settings":{"collection":"dolls-en-figurines"}}},"block_order":["collection-0","collection-1","collection-2","collection-3","147a3634-b8c9-433b-aaa9-5246e992b0a0","a150d543-2c47-49ee-9332-4d76193ec77a","719b847e-0140-4f8c-89b2-3d7435b1b6ca","451ca756-9413-4bb1-83c6-4208b4b3e49b"],"settings":{"title":"","enlarge_title":false,"grid":2}},"promo-images":{"type":"promotional-images","disabled":true,"blocks":{"image-0":{"type":"image","settings":{"image_position":"center center","image_link":"","layout":"image_before","color_background":"#dae4e6","color_text":"#333333","overlay_opacity":80,"title":"<p>Combine images with text and a stand-out offer<\/p>","offer":"Offer","url_text":"","url":"","url_style":"button_1","enlarge_title":false,"enlarge_text":false}},"image-1":{"type":"image","settings":{"image_position":"center center","image_link":"","layout":"image_after","color_background":"#dae4e6","color_text":"#333333","overlay_opacity":80,"title":"<p>Combine images with text and a stand-out offer<\/p>","offer":"Offer","url_text":"","url":"","url_style":"button_1","enlarge_title":false,"enlarge_text":false}}},"block_order":["image-0","image-1"],"settings":{}},"rich-text":{"type":"rich-text","settings":{"title":"DivineDarkness.eu","text":"<p>De online winkel voor Gothic, Punk, Pin-Up, Rock, Emo en meer.. in Nederland!<\/p><p>Welkom bij Divine-Darkness.eu Wij zijn een online kleding winkel gespecialiseerd<br\/> in Alternatieve mode zoals Gothic, Emo, Retro, Punk, Rock en meer.. <br\/>Wij zijn sinds 2004 online en hebben een groot assortiment in Jurken, Rokken, Tops, Broeken, T-Shirts Accessoires en meer, <br\/>accessoires, muziek, figures en meer. Ons bedrijf is in Nederland gevestigd, <br\/>maar verzenden wereldwijd. Mocht je vragen of suggesties hebben kan je <br\/>altijd <a href=\"https:\/\/divinedarkness.eu\/pages\/neem-contact-op\" title=\"Neem contact op:\">contact<\/a> met ons opnemen. We zullen je vraag z.s.m. behandelen.<\/p><p><\/p><p>Show off your Dark Divinity!!<\/p>","button_label":"","button_link":"","url_style":"button_1","enlarge_title":false,"enlarge_text":false,"full_width":false,"color_bg":"#ecf1f2","color_title":"#333333","color_text":"#333333"}},"split-image":{"type":"split-image","disabled":true,"blocks":{"image-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/sales_e99fef70-f1d7-42f9-a7cb-93d88bd565f3.jpg","image_link":"shopify:\/\/collections\/sterk-afgeprijsde-artikelen-tops-jassen-accessoires-en-meer-vind-je-hier","image_position":"center center","color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_title":"Sales!","overlay_text":"Alle aanbiediengen vind je hier!","overlay_url_text":"","overlay_url":"","overlay_url_style":"button_1","enlarge_title":false,"enlarge_text":false,"overlay_position_x":50,"overlay_position_y":80,"mobile_text_below":false,"color_label_background":"#ffffff","color_label_text":"#333333","product_id":"","show_chevron":true,"chevron_position":"right","label_position_x":20,"label_position_y":20}},"image-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/dresselegantpurpletartansales.jpg","image_link":"shopify:\/\/products\/paarse-tartan-jurk","image_position":"center center","color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_title":"","overlay_text":"","overlay_url_text":"","overlay_url":"shopify:\/\/products\/paarse-tartan-jurk","overlay_url_style":"button_1","enlarge_title":false,"enlarge_text":false,"overlay_position_x":50,"overlay_position_y":20,"mobile_text_below":false,"color_label_background":"#ffffff","color_label_text":"#333333","product_id":"","show_chevron":true,"chevron_position":"right","label_position_x":80,"label_position_y":80}}},"block_order":["image-0","image-1"],"settings":{"height_desktop":600,"height_mobile":500}},"image-with-text":{"type":"image-with-text","disabled":true,"settings":{"image_link":"","image_size":"0","image_position":"left","title":"Image with text","text":"<p>Advertise a sale! Or tell your shoppers something about yourself.<\/p>","button_label":"","button_link":"","url_style":"button_1","enlarge_title":false,"enlarge_text":false,"text_alignment":"center","color_bg":"#dae4e6","color_text":"#333333"}},"standout-collection":{"type":"standout-collection","disabled":true,"settings":{"collection":"huis-decoratie-gifts","collection_background":"#ffffff","alternative_image":"shopify:\/\/shop_images\/homeandgifts_900x_8aeb1911-5d14-4b0b-9e2d-940c984c8647.jpg","image_position":"center center","layout":"left","show_vendor":false,"color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_url_text":"Shop now","url_style":"button_1","enlarge_title":false,"overlay_position_y":70,"color_label_background":"#ffffff","color_label_text":"#333333","product_id":"","show_chevron":true,"chevron_position":"right","label_position_x":10,"label_position_y":30}},"featured-blog":{"type":"featured-blog","settings":{"heading_image":"shopify:\/\/shop_images\/womennewshop.jpg","image_position":"center center","title":"Blog posts","description":"Hier vind je het laatste nieuws!","color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","show_view_all":true,"overlay_url_style":"button_1","enlarge_title":false,"enlarge_text":false,"overlay_position_y":70,"blog":"news","post_limit":3,"show_author":false,"show_date":true,"show_tags":true,"show_featured_products":true}},"instagrid-1655624664":{"type":"instagrid","settings":{}}},"order":["slideshow","1645064879918b6d32","featured-collection","collection-list","promo-images","rich-text","split-image","image-with-text","standout-collection","featured-blog","instagrid-1655624664"]}
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "fac2833b-fbb3-40ef-99fb-a37f01dc3451": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GOTHDAY.jpg",
+            "image_position": "center center",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "overlay_title": "15% Korting!\nGebruik code: DARK",
+            "overlay_text": "Nu 15% korting op alle bestellingen",
+            "overlay_url_text_1": "",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        },
+        "48c1bdf1-75fa-4800-92e5-9a3a047ec311": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/presnewdresses.jpg",
+            "image_position": "center center",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "overlay_title": "Nieuwe Collectie Jurken",
+            "overlay_text": "Jurken in verschillende stijlen van Goth tot Punk!",
+            "overlay_url_text_1": "Shop Now!",
+            "overlay_url_1": "shopify:\/\/collections\/lange-en-korte-jurken-in-victoriaanse-en-gothic-stijl-en-meer",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        },
+        "slide-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/press13-03-2022.jpg",
+            "image_position": "center center",
+            "image_link": "shopify:\/\/collections\/cosplay-en-casual-looks-voor-dames-lange-rokken-lange-jurken-korsetten",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "overlay_title": "Dames Kleding",
+            "overlay_text": "Gothic, Punk, Rock, Pin Up en meer",
+            "overlay_url_text_1": "Shop",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "overlay_position_x": 50,
+            "overlay_position_y": 70,
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        },
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shoespres.jpg",
+            "image_position": "center center",
+            "image_link": "shopify:\/\/collections\/dames-schoenen",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "overlay_title": "Chocolaticas®",
+            "overlay_text": "Mary Janes Hot Chocolate Design",
+            "overlay_url_text_1": "Shop now!",
+            "overlay_url_1": "shopify:\/\/collections\/dames-schoenen",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "overlay_position_x": 50,
+            "overlay_position_y": 70,
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        },
+        "b14611c3-ebb8-4bd4-b03e-d758d956fd77": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cyberpres.jpg",
+            "image_position": "center center",
+            "image_link": "shopify:\/\/collections\/cyber-rave-wear",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "overlay_title": "Cyber \/ Rave",
+            "overlay_text": "Cyber\/Rave Kleding en Accessoires",
+            "overlay_url_text_1": "Shop Now!",
+            "overlay_url_1": "shopify:\/\/collections\/cyber-rave-wear",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        }
+      },
+      "block_order": [
+        "fac2833b-fbb3-40ef-99fb-a37f01dc3451",
+        "48c1bdf1-75fa-4800-92e5-9a3a047ec311",
+        "slide-0",
+        "slide-1",
+        "b14611c3-ebb8-4bd4-b03e-d758d956fd77"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "mobile_text_below": true,
+        "slideshow_autoplay": true,
+        "slideshow_autoplay_speed": 8
+      }
+    },
+    "1645064879918b6d32": {
+      "type": "pluginseo-headings",
+      "settings": {
+        "heading": "Grande sélection de vêtements Gothiques et autres styles Alternatifs, d'Accessoires et d'articles de décorations pour la maison. De nombreux articles originaux et uniques.",
+        "subheading": "<br>La boutique en ligne de Mode Alternative : Gothique, Emo, Cyber, Rave, Punk et bien plus !"
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Nieuw bij Divine-Darkness!",
+        "enlarge_title": false,
+        "link_text": "Shop now!",
+        "collection": "nieuwe-artikelen-tops-jurken-rokken-accessoires-muziek-en-meer",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "row_count": 3,
+        "grid_mobile": "2"
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "akumu-ink-clothing"
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "lange-en-korte-jurken-in-victoriaanse-en-gothic-stijl-en-meer"
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "maskers"
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "shirts"
+          }
+        },
+        "147a3634-b8c9-433b-aaa9-5246e992b0a0": {
+          "type": "collection",
+          "settings": {
+            "collection": "tassen"
+          }
+        },
+        "a150d543-2c47-49ee-9332-4d76193ec77a": {
+          "type": "collection",
+          "settings": {
+            "collection": "haar-accessoires"
+          }
+        },
+        "719b847e-0140-4f8c-89b2-3d7435b1b6ca": {
+          "type": "collection",
+          "settings": {
+            "collection": "muziek"
+          }
+        },
+        "451ca756-9413-4bb1-83c6-4208b4b3e49b": {
+          "type": "collection",
+          "settings": {
+            "collection": "dolls-en-figurines"
+          }
+        }
+      },
+      "block_order": [
+        "collection-0",
+        "collection-1",
+        "collection-2",
+        "collection-3",
+        "147a3634-b8c9-433b-aaa9-5246e992b0a0",
+        "a150d543-2c47-49ee-9332-4d76193ec77a",
+        "719b847e-0140-4f8c-89b2-3d7435b1b6ca",
+        "451ca756-9413-4bb1-83c6-4208b4b3e49b"
+      ],
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "grid": 2
+      }
+    },
+    "promo-images": {
+      "type": "promotional-images",
+      "disabled": true,
+      "blocks": {
+        "image-0": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "image_link": "",
+            "layout": "image_before",
+            "color_background": "#dae4e6",
+            "color_text": "#333333",
+            "overlay_opacity": 80,
+            "title": "<p>Combine images with text and a stand-out offer<\/p>",
+            "offer": "Offer",
+            "url_text": "",
+            "url": "",
+            "url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "image_link": "",
+            "layout": "image_after",
+            "color_background": "#dae4e6",
+            "color_text": "#333333",
+            "overlay_opacity": 80,
+            "title": "<p>Combine images with text and a stand-out offer<\/p>",
+            "offer": "Offer",
+            "url_text": "",
+            "url": "",
+            "url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "image-0",
+        "image-1"
+      ],
+      "settings": {
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "settings": {
+        "title": "DivineDarkness.eu",
+        "text": "<p>De online winkel voor Gothic, Punk, Pin-Up, Rock, Emo en meer.. in Nederland!<\/p><p>Welkom bij Divine-Darkness.eu Wij zijn een online kleding winkel gespecialiseerd<br\/> in Alternatieve mode zoals Gothic, Emo, Retro, Punk, Rock en meer.. <br\/>Wij zijn sinds 2004 online en hebben een groot assortiment in Jurken, Rokken, Tops, Broeken, T-Shirts Accessoires en meer, <br\/>accessoires, muziek, figures en meer. Ons bedrijf is in Nederland gevestigd, <br\/>maar verzenden wereldwijd. Mocht je vragen of suggesties hebben kan je <br\/>altijd <a href=\"https:\/\/divinedarkness.eu\/pages\/neem-contact-op\" title=\"Neem contact op:\">contact<\/a> met ons opnemen. We zullen je vraag z.s.m. behandelen.<\/p><p><\/p><p>Show off your Dark Divinity!!<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_bg": "#ecf1f2",
+        "color_title": "#333333",
+        "color_text": "#333333"
+      }
+    },
+    "split-image": {
+      "type": "split-image",
+      "disabled": true,
+      "blocks": {
+        "image-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sales_e99fef70-f1d7-42f9-a7cb-93d88bd565f3.jpg",
+            "image_link": "shopify:\/\/collections\/sterk-afgeprijsde-artikelen-tops-jassen-accessoires-en-meer-vind-je-hier",
+            "image_position": "center center",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "overlay_title": "Sales!",
+            "overlay_text": "Alle aanbiediengen vind je hier!",
+            "overlay_url_text": "",
+            "overlay_url": "",
+            "overlay_url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "mobile_text_below": false,
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "product_id": "",
+            "show_chevron": true,
+            "chevron_position": "right",
+            "label_position_x": 20,
+            "label_position_y": 20
+          }
+        },
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dresselegantpurpletartansales.jpg",
+            "image_link": "shopify:\/\/products\/paarse-tartan-jurk",
+            "image_position": "center center",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "overlay_title": "",
+            "overlay_text": "",
+            "overlay_url_text": "",
+            "overlay_url": "shopify:\/\/products\/paarse-tartan-jurk",
+            "overlay_url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "overlay_position_x": 50,
+            "overlay_position_y": 20,
+            "mobile_text_below": false,
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "product_id": "",
+            "show_chevron": true,
+            "chevron_position": "right",
+            "label_position_x": 80,
+            "label_position_y": 80
+          }
+        }
+      },
+      "block_order": [
+        "image-0",
+        "image-1"
+      ],
+      "settings": {
+        "height_desktop": 600,
+        "height_mobile": 500
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "image_link": "",
+        "image_size": "0",
+        "image_position": "left",
+        "title": "Image with text",
+        "text": "<p>Advertise a sale! Or tell your shoppers something about yourself.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_bg": "#dae4e6",
+        "color_text": "#333333"
+      }
+    },
+    "standout-collection": {
+      "type": "standout-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "huis-decoratie-gifts",
+        "collection_background": "#ffffff",
+        "alternative_image": "shopify:\/\/shop_images\/homeandgifts_900x_8aeb1911-5d14-4b0b-9e2d-940c984c8647.jpg",
+        "image_position": "center center",
+        "layout": "left",
+        "show_vendor": false,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "overlay_url_text": "Shop now",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "overlay_position_y": 70,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "product_id": "",
+        "show_chevron": true,
+        "chevron_position": "right",
+        "label_position_x": 10,
+        "label_position_y": 30
+      }
+    },
+    "featured-blog": {
+      "type": "featured-blog",
+      "settings": {
+        "heading_image": "shopify:\/\/shop_images\/womennewshop.jpg",
+        "image_position": "center center",
+        "title": "Blog posts",
+        "description": "Hier vind je het laatste nieuws!",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "show_view_all": true,
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "overlay_position_y": 70,
+        "blog": "news",
+        "post_limit": 3,
+        "show_author": false,
+        "show_date": true,
+        "show_tags": true,
+        "show_featured_products": true
+      }
+    },
+    "instagrid-1655624664": {
+      "type": "instagrid",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "1645064879918b6d32",
+    "featured-collection",
+    "collection-list",
+    "promo-images",
+    "rich-text",
+    "split-image",
+    "image-with-text",
+    "standout-collection",
+    "featured-blog",
+    "instagrid-1655624664"
+  ]
+}
