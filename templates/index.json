@@ -199,7 +199,7 @@
         "title": "Nieuw bij Divine-Darkness!",
         "enlarge_title": false,
         "link_text": "Shop now!",
-        "collection": "nieuwe-artikelen-tops-jurken-rokken-accessoires-muziek-en-meer",
+        "collection": "nieuwe-artikelen-tops-jurken-rokken-accessoires",
         "show_vendor": false,
         "enable_carousel": false,
         "grid": 4,
@@ -277,7 +277,6 @@
     },
     "promo-images": {
       "type": "promotional-images",
-      "disabled": true,
       "blocks": {
         "image-0": {
           "type": "image",
@@ -320,6 +319,7 @@
         "image-0",
         "image-1"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -341,7 +341,6 @@
     },
     "split-image": {
       "type": "split-image",
-      "disabled": true,
       "blocks": {
         "image-0": {
           "type": "image",
@@ -404,6 +403,7 @@
         "image-0",
         "image-1"
       ],
+      "disabled": true,
       "settings": {
         "height_desktop": 600,
         "height_mobile": 500
