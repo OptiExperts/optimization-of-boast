@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "slideshow": {
@@ -237,7 +246,7 @@
         "147a3634-b8c9-433b-aaa9-5246e992b0a0": {
           "type": "collection",
           "settings": {
-            "collection": "tassen"
+            "collection": "gothic_rugtassen_en_handtassen"
           }
         },
         "a150d543-2c47-49ee-9332-4d76193ec77a": {
