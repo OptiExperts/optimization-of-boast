@@ -58,7 +58,7 @@
             "overlay_title": "Nieuwe Collectie Jurken",
             "overlay_text": "Jurken in verschillende stijlen van Goth tot Punk!",
             "overlay_url_text_1": "Shop Now!",
-            "overlay_url_1": "shopify://collections/lange-en-korte-jurken-in-victoriaanse-en-gothic-stijl-en-meer",
+            "overlay_url_1": "shopify://collections/lange-en-korte-jurken-in-verschillende-stijlen",
             "overlay_url_text_2": "",
             "overlay_url_2": "",
             "overlay_url_style": "button_1",
@@ -228,7 +228,7 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "lange-en-korte-jurken-in-victoriaanse-en-gothic-stijl-en-meer"
+            "collection": "lange-en-korte-jurken-in-verschillende-stijlen"
           }
         },
         "collection-2": {
