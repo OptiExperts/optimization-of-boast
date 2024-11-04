@@ -117,14 +117,14 @@
           "settings": {
             "image": "shopify://shop_images/shoespres.jpg",
             "image_position": "center center",
-            "image_link": "shopify://collections/dames-schoenen",
+            "image_link": "shopify://collections/gothic-en-alternatieve-dames-schoenen",
             "color_overlay_bg": "#ffffff",
             "overlay_opacity": 80,
             "color_overlay_text": "#333333",
             "overlay_title": "Chocolaticas®",
             "overlay_text": "Mary Janes Hot Chocolate Design",
             "overlay_url_text_1": "Shop now!",
-            "overlay_url_1": "shopify://collections/dames-schoenen",
+            "overlay_url_1": "shopify://collections/gothic-en-alternatieve-dames-schoenen",
             "overlay_url_text_2": "",
             "overlay_url_2": "",
             "overlay_url_style": "button_1",
@@ -246,7 +246,7 @@
         "147a3634-b8c9-433b-aaa9-5246e992b0a0": {
           "type": "collection",
           "settings": {
-            "collection": "gothic_rugtassen_en_handtassen"
+            "collection": "gothic-en-victoriaanse-handtassen-en-rugtassen"
           }
         },
         "a150d543-2c47-49ee-9332-4d76193ec77a": {
@@ -355,7 +355,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/sales_e99fef70-f1d7-42f9-a7cb-93d88bd565f3.jpg",
-            "image_link": "shopify://collections/sterk-afgeprijsde-artikelen-tops-jassen-accessoires-en-meer-vind-je-hier",
+            "image_link": "shopify://collections/afgeprijsde-gothic-punk-rock-en-metal-kleding-accessoires-en-meer",
             "image_position": "center center",
             "color_overlay_bg": "#ffffff",
             "overlay_opacity": 80,
